@@ -1,9 +1,18 @@
+import "./ProductCard.css"
 function ProductCard(ProductCard){
+    const tiltleStyle={
+        
+    fontSize: "17px",
+    fontWeight: "bold",
+    color: "black",
+    }
     
     return (
-       <>
-       <p>The Car your looking for is {ProductCard.car} and its price is {ProductCard.price} and the Stock is {ProductCard.isAvailable}</p>
-       </>
+       <div className="container">
+       <p style={tiltleStyle}> Product Name:{ProductCard.car}</p> 
+       <p className="price">Price:{ProductCard.price}</p>
+       <p > {ProductCard.isAvailable}</p>
+       </div>
     )
 }
 

@@ -1,0 +1,21 @@
+.maincontainer{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.color1{
+    color:green;
+    align-items: flex-end;
+
+}
+
+.color2{
+    color:red;
+}
+.main{
+    justify-content: center;
+    padding-left: 20%;
+    padding-top: 15%;
+}

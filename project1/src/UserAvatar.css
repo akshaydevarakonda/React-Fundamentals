@@ -1,0 +1,15 @@
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    color:red
+}
+
+.con{
+    border: 3px solid black;
+    text-align: center;
+}
+
+.img{
+    height: 40px;
+    width: 50px;
+}
